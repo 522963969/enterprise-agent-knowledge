@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "企业Agent平台三阶段实施方案.md",
+                "file": "AI开发总结以及问题汇总.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企业Agent平台三阶段实施方案"
+              "title": "AI开发总结以及问题汇总"
             }
           }
         ],
@@ -55,8 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": true
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "企业Agent平台三阶段实施方案.md",
+                "file": "AI开发总结以及问题汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "企业Agent平台三阶段实施方案 的反向链接列表"
+              "title": "AI开发总结以及问题汇总 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "企业Agent平台三阶段实施方案.md",
+                "file": "AI开发总结以及问题汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "企业Agent平台三阶段实施方案 的出链列表"
+              "title": "AI开发总结以及问题汇总 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "企业Agent平台三阶段实施方案.md",
+                "file": "AI开发总结以及问题汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "企业Agent平台三阶段实施方案 的大纲"
+              "title": "AI开发总结以及问题汇总 的大纲"
             }
           }
         ]
@@ -200,7 +200,11 @@
   },
   "active": "ddc4518469b1e9db",
   "lastOpenFiles": [
+    "业务知识总结.md",
+    "AI开发总结以及问题汇总.md",
     "智能体平台搭建开发知识.md",
+    "12554008_b73a5f3a-b0cd-4273-d819-a58d328f7552.png",
+    "未命名",
     "企业Agent平台三阶段实施方案.md",
     "未命名.base",
     "未命名 1.base",
@@ -208,7 +212,6 @@
     "Pasted image 20260616134236.png",
     "Pasted image 20260616134342.png",
     "Pasted image 20260616134416.png",
-    "12554008_b73a5f3a-b0cd-4273-d819-a58d328f7552.png",
     "2026-06-16.md",
     "未命名.canvas",
     "Pasted image 20260616134539.png",
