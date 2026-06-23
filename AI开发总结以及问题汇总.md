@@ -25,4 +25,27 @@
 	Codex不需要外置ToolRegistry，  是因为：  
 	 MCP Server本身已经实现了“最小可用Tool Registry能力（tools/list）”  
     但企业级系统必须外置Registry来做治理、检索和跨MCP调度。
-    
+ -  agent 记忆如何管理
+    向量数据库的局限就是对于精准化的新旧数据无法共存的问题导致决策失误
+    向量数据库解决的是语义相似度的问题而不是 事实状态  时间状态  版本状态
+    chatgpt采用四层架构 一用完就丟的会话层数据 二查找结构化用户档案卡三将最近对话压缩对话摘要 滑动窗口处理上下文
+     核心机制将
+     agent的输出变更了 构建ledger views policy三件套采用双时间机制即为业务发生时间和
+     ledge 本质上就是事实账本：
+     ![[Pasted image 20260618090101.png]]
+     view 从 Ledger 计算出的当前视图
+     当前用户的状态
+     policy
+        什么可以长期存  
+		什么只存一天  
+		什么立即删除
+		把任务轨迹固化为Skill 完成10次同样的任务发现规律然后抽取skill
+     解决状态复写 将成果的任务轨迹固化为可复用skill
+- agent记忆在项目中管理
+     1 会话层短期记忆 用redis存储 即用即删
+     2 用户以及用mysql装填 存放用户角色用户偏向好等
+     3 Ledger Memory用mysql做记录
+      4 总结这几次的对话的内容 给新的对话
+      5 Vector Memory存文档 项目经验等 向量化存储到milvus
+      6 把成果业务转化成skill
+      7 chuang'jian记忆管理中心
