@@ -49,3 +49,6 @@
       5 Vector Memory存文档 项目经验等 向量化存储到milvus
       6 把成果业务转化成skill
       7 chuang'jian记忆管理中心
+- LangChain和LangGraph使用什么场景
+   ![[Pasted image 20260624231513.png|356]]
+   单向性  A-B  短期记忆快照流
